@@ -10,9 +10,11 @@
    ```bash
    poetry install
    ```
-
-2. Start the backend server:
-
+2. Use the virtual environment.
+   ```bash
+   poetry shell
+   ```
+3. Start the backend server:
     ```bash
     python3 src/manage.py
     ```

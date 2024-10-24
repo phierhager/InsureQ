@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# Poetry
+.poetry/
+*.lock
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env/
+
+# Backend tests
+/tests/__pycache__/
+tests/*.pyc
+
+# Frontend (Node.js)
+node_modules/
+dist/
+build/
+.cache/
+public/static/
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.
+
+# Database
+
+*.db

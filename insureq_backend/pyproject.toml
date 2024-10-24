@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "insureq-backend"
+version = "0.1.0"
+description = ""
+authors = ["Philip Hierhager <79938817+phierhager@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.3"
+uvicorn = "^0.32.0"
+sqlalchemy = "^2.0.36"
+scikit-learn = "^1.5.2"
+qiskit-machine-learning = "^0.7.2"
+
+
+[tool.poetry.scripts]
+backend = "src.app.main:app"  # Entry point for FastAPI if needed
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
